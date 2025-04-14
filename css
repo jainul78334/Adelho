@@ -1,0 +1,11 @@
+04.12 4:04 PM
+// यह function "Ad दिखाएं" बटन पर क्लिक होने पर एड लोड करेगा
+function showAd() {
+  const adBox = document.getElementById('adBox');
+  
+  // यहां आप अपना Adsterra iframe कोड या script डाल सकते हैं
+  adBox.innerHTML = `
+    <!-- यह सिर्फ एक डेमो iframe है, असली ad कोड यहां replace करें -->
+    <iframe src="https://example.com/ad" width="728" height="90" style="border:none;"></iframe>
+  `;
+}
